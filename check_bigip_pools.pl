@@ -48,7 +48,7 @@ sub show_help() {
         print "\n$scriptName plugin for Nagios to monitor the Pool-Status on Big-IP Appliances via SNMP\n";
         print "\nUsage:\n";
         print "   -H (--hostname)      IP or Hostname of the Big-IP\n";
-        print "   -p (--poolname)      Name of the Pool\n";
+        print "   -P (--poolname)      Name of the Pool\n";
         print "   -C (--community)     SNMP community (default is public)\n";
         print "\nOptional:\n";
         print "   -w (--warning)       Threshold for warning limit\n";
